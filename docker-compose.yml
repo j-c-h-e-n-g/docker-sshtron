@@ -1,0 +1,7 @@
+version: '2'
+services:
+  sshtron:
+    container_name: sshtron
+    image: j-c-h-e-n-g/sshtron:v1
+    ports:
+     - "2022:2022"
